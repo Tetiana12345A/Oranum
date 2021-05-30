@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622279792538' stop='1622279795906'>
+    <name>Searching for full text:</name>
+    <title>Searching for full text:</title>
+    <test-cases>
+        <test-case start='1622279792539' status='passed' stop='1622279795805'>
+            <name>test full search</name>
+            <title>test full search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622279792541' status='passed' stop='1622279794498'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622279794498' status='passed' stop='1622279794730'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622279794730' status='passed' stop='1622279795092'>
+                    <name>I fill field "find psychics...", "MattWarren"</name>
+                    <title>I fill field "find psychics...", "MattWarren"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622279795092' status='passed' stop='1622279795453'>
+                    <name>I grab text from "$search-result-list"</name>
+                    <title>I grab text from "$search-result-list"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622279795454' status='passed' stop='1622279795668'>
+                    <name>I click "MattWarren"</name>
+                    <title>I click "MattWarren"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622279795668' status='passed' stop='1622279795725'>
+                    <name>I see in current url "/en/profile/MattWarren"</name>
+                    <title>I see in current url "/en/profile/MattWarren"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622279795725' status='passed' stop='1622279795805'>
+                    <name>I see element "$influencer-name-text"</name>
+                    <title>I see element "$influencer-name-text"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

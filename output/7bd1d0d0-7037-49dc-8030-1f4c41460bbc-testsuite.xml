@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622359636845' stop='1622359643944'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622359637863' status='passed' stop='1622359643936'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622359637878' status='passed' stop='1622359640791'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622359640791' status='passed' stop='1622359643025'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622359643025' status='passed' stop='1622359643141'>
+                    <name>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*"</name>
+                    <title>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622359643141' status='passed' stop='1622359643844'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622359643862' status='passed' stop='1622359643934'>
+                    <name>I grab text from all "$influencer-name"</name>
+                    <title>I grab text from all "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622359643934' status='passed' stop='1622359643936'>
+                    <name>I see in current url "/search/Love"</name>
+                    <title>I see in current url "/search/Love"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

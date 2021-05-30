@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622280619101' stop='1622280627101'>
+    <name>Searching for full text:</name>
+    <title>Searching for full text:</title>
+    <test-cases>
+        <test-case start='1622280620045' status='failed' stop='1622280626523'>
+            <name>test full search</name>
+            <title>test full search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622280620060' status='passed' stop='1622280626034'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622280626035' status='passed' stop='1622280626264'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622280626264' status='passed' stop='1622280626474'>
+                    <name>I fill field "find psychics...", "Matt"</name>
+                    <title>I fill field "find psychics...", "Matt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622280626474' status='passed' stop='1622280626521'>
+                    <name>I grab text from all {"css":"[data-test-id=\"search-result-list\"]"}</name>
+                    <title>I grab text from all {"css":"[data-test-id=\"search-result-list\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='d0d79a0d-0b5a-4e00-9681-9780fa2e2cfe-attachment.png' type='image/png' size='733851'/>
+            </attachments>
+            <failure>
+                <message>The "string" argument must be of type string. Received type object ([])</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: The "string" argument must be of type string. Received type object ([])
+                    at Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req2_test.js:12:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622364830666' stop='1622364837197'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622364831666' status='failed' stop='1622364837009'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622364831682' status='passed' stop='1622364834218'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622364834218' status='passed' stop='1622364836363'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622364836364' status='passed' stop='1622364836863'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622364836863' status='passed' stop='1622364836867'>
+                    <name>I see in current url "/en/search/Love"</name>
+                    <title>I see in current url "/en/search/Love"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622364836867' status='passed' stop='1622364836895'>
+                    <name>I wait for response (resp) => {
+                            return resp.url().includes('https://api-gateway.docleradn.com/v1/guest/story/items/recommended') &amp;&amp; resp.status() === 200;
+                        }</name>
+                    <title>I wait for response (resp) => {
+                            return resp.url().includes('https://api-gateway.docleradn.com/v1/guest/story/items/recommended') &amp;&amp; resp.status() === 200;
+                        }</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622364836912' status='passed' stop='1622364836940'>
+                    <name>I see number of visible elements "$influencer-name", 20</name>
+                    <title>I see number of visible elements "$influencer-name", 20</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622364836941' status='passed' stop='1622364837008'>
+                    <name>I grab text from all "$influencer-name"</name>
+                    <title>I grab text from all "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='0f576f7d-83e0-4477-8580-da551823600a-attachment.png' type='image/png' size='27614'/>
+            </attachments>
+            <failure>
+                <message>assert.equals is not a function</message>
+                <stack-trace>TypeError: assert.equals is not a function
+                    at Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req5_test.js:28:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

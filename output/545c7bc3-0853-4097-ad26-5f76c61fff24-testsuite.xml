@@ -1,0 +1,172 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622370911034' stop='1622370918131'>
+    <name>topics match psychics:</name>
+    <title>topics match psychics:</title>
+    <test-cases>
+        <test-case start='1622370911035' status='passed' stop='1622370913546'>
+            <name>check phisics match topics love</name>
+            <title>check phisics match topics love</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622370911039' status='passed' stop='1622370911664'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370911665' status='passed' stop='1622370912878'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370912878' status='passed' stop='1622370913100'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370913100' status='passed' stop='1622370913101'>
+                    <name>I see in current url "/en/search/Love"</name>
+                    <title>I see in current url "/en/search/Love"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370913101' status='passed' stop='1622370913206'>
+                    <name>I wait for response (resp) => {
+                            return resp.url().includes('https://api-gateway.docleradn.com/v1/guest/story/items/recommended') &amp;&amp; resp.status() === 200;
+                        }</name>
+                    <title>I wait for response (resp) => {
+                            return resp.url().includes('https://api-gateway.docleradn.com/v1/guest/story/items/recommended') &amp;&amp; resp.status() === 200;
+                        }</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370913242' status='passed' stop='1622370913492'>
+                    <name>I see number of visible elements "$influencer-name", 20</name>
+                    <title>I see number of visible elements "$influencer-name", 20</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370913492' status='passed' stop='1622370913546'>
+                    <name>I grab text from all "$influencer-name"</name>
+                    <title>I grab text from all "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622370913561' status='passed' stop='1622370915572'>
+            <name>check phisics match topics tarot</name>
+            <title>check phisics match topics tarot</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622370913562' status='passed' stop='1622370914120'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370914120' status='passed' stop='1622370914705'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370914706' status='passed' stop='1622370915295'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Tarot')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Tarot')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370915296' status='passed' stop='1622370915298'>
+                    <name>I see in current url "/en/search/Tarot"</name>
+                    <title>I see in current url "/en/search/Tarot"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370915298' status='passed' stop='1622370915312'>
+                    <name>I wait for response (resp) => {
+                            return resp.url().includes('https://api-gateway.docleradn.com/v1/guest/story/items/recommended') &amp;&amp; resp.status() === 200;
+                        }</name>
+                    <title>I wait for response (resp) => {
+                            return resp.url().includes('https://api-gateway.docleradn.com/v1/guest/story/items/recommended') &amp;&amp; resp.status() === 200;
+                        }</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370915340' status='passed' stop='1622370915466'>
+                    <name>I see number of visible elements "$influencer-name", 19</name>
+                    <title>I see number of visible elements "$influencer-name", 19</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370915466' status='passed' stop='1622370915572'>
+                    <name>I grab text from all "$influencer-name"</name>
+                    <title>I grab text from all "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622370915577' status='passed' stop='1622370918125'>
+            <name>check phisics match topics dreams</name>
+            <title>check phisics match topics dreams</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622370915578' status='passed' stop='1622370916152'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370916153' status='passed' stop='1622370917378'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370917379' status='passed' stop='1622370917618'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Dreams')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Dreams')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370917618' status='passed' stop='1622370917622'>
+                    <name>I see in current url "/en/search/Dreams"</name>
+                    <title>I see in current url "/en/search/Dreams"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370917622' status='passed' stop='1622370917699'>
+                    <name>I wait for response (resp) => {
+                            return resp.url().includes('https://api-gateway.docleradn.com/v1/guest/story/items/recommended') &amp;&amp; resp.status() === 200;
+                        }</name>
+                    <title>I wait for response (resp) => {
+                            return resp.url().includes('https://api-gateway.docleradn.com/v1/guest/story/items/recommended') &amp;&amp; resp.status() === 200;
+                        }</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370917739' status='passed' stop='1622370918041'>
+                    <name>I see number of visible elements "$influencer-name", 20</name>
+                    <title>I see number of visible elements "$influencer-name", 20</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622370918041' status='passed' stop='1622370918125'>
+                    <name>I grab text from all "$influencer-name"</name>
+                    <title>I grab text from all "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

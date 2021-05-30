@@ -1,0 +1,157 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622275161530' stop='1622275179499'>
+    <name>Validate Livestream as unlogged user:</name>
+    <title>Validate Livestream as unlogged user:</title>
+    <test-cases>
+        <test-case start='1622275161530' status='passed' stop='1622275165090'>
+            <name>check profile is live </name>
+            <title>check profile is live </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622275161532' status='passed' stop='1622275163436'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275163437' status='passed' stop='1622275163744'>
+                    <name>I click {"css":"[data-testid=\"button-header-search\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"button-header-search\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275163744' status='passed' stop='1622275164020'>
+                    <name>I click "Live"</name>
+                    <title>I click "Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275164021' status='passed' stop='1622275164703'>
+                    <name>I click {"css":"[data-testid=\"influencer-name\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"influencer-name\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275164703' status='passed' stop='1622275165090'>
+                    <name>I see element {"css":"[data-testid=\"live-status-box\"]"}</name>
+                    <title>I see element {"css":"[data-testid=\"live-status-box\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622275165098' status='passed' stop='1622275170936'>
+            <name>check get credits trigger a Sign up </name>
+            <title>check get credits trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622275165099' status='passed' stop='1622275166946'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275166947' status='passed' stop='1622275167319'>
+                    <name>I click {"css":"[data-testid=\"influencer-name\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"influencer-name\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275167319' status='passed' stop='1622275170749'>
+                    <name>I click "10"</name>
+                    <title>I click "10"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275170749' status='passed' stop='1622275170936'>
+                    <name>I see "Register an account to continue"</name>
+                    <title>I see "Register an account to continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622275170948' status='passed' stop='1622275175200'>
+            <name>check add to favorite trigger a Sign up </name>
+            <title>check add to favorite trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622275170950' status='passed' stop='1622275172408'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275172408' status='passed' stop='1622275172882'>
+                    <name>I click {"css":"[data-testid=\"influencer-name\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"influencer-name\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275172882' status='passed' stop='1622275173642'>
+                    <name>I see element {"css":"[data-testid=\"live-status-box\"]"}</name>
+                    <title>I see element {"css":"[data-testid=\"live-status-box\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275173642' status='passed' stop='1622275175181'>
+                    <name>I click {"css":"[data-testid=\"favorite-button\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"favorite-button\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275175181' status='passed' stop='1622275175200'>
+                    <name>I see "Join now!"</name>
+                    <title>I see "Join now!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622275175213' status='passed' stop='1622275179480'>
+            <name>check quick buy trigger a Sign up </name>
+            <title>check quick buy trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622275175215' status='passed' stop='1622275176634'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275176634' status='passed' stop='1622275176989'>
+                    <name>I click {"css":"[data-testid=\"influencer-name\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"influencer-name\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275176989' status='passed' stop='1622275177463'>
+                    <name>I see element {"css":"[data-testid=\"live-status-box\"]"}</name>
+                    <title>I see element {"css":"[data-testid=\"live-status-box\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275177463' status='passed' stop='1622275179363'>
+                    <name>I click {"css":"[data-testid=\"quick-buy-button\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"quick-buy-button\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622275179363' status='passed' stop='1622275179480'>
+                    <name>I see "Are You a Member?"</name>
+                    <title>I see "Are You a Member?"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

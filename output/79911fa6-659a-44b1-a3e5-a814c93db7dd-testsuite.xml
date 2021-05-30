@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622292425316' stop='1622292435895'>
+    <name>Searching for partial text:</name>
+    <title>Searching for partial text:</title>
+    <test-cases>
+        <test-case start='1622292426457' status='failed' stop='1622292435310'>
+            <name>test partial search</name>
+            <title>test partial search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622292426472' status='passed' stop='1622292434534'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622292434535' status='passed' stop='1622292434796'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622292434796' status='passed' stop='1622292435017'>
+                    <name>I fill field "find psychics...", "Matt"</name>
+                    <title>I fill field "find psychics...", "Matt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622292435017' status='passed' stop='1622292435209'>
+                    <name>I wait for element "$search-result-list", 20</name>
+                    <title>I wait for element "$search-result-list", 20</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622292435209' status='passed' stop='1622292435305'>
+                    <name>I grab text from all "$search-result-list"</name>
+                    <title>I grab text from all "$search-result-list"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='6273d437-a15c-4501-b412-631afb80e910-attachment.png' type='image/png' size='949980'/>
+            </attachments>
+            <failure>
+                <message>The input did not match the regular expression /matt/i. Input:
+                
+                ''
+                </message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: The input did not match the regular expression /matt/i. Input:
+                
+                ''
+                
+                    at /Users/tetianaafanasieva/Desktop/Oranum/req2_test.js:14:16
+                    at Array.forEach (&lt;anonymous>)
+                    at Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req2_test.js:13:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

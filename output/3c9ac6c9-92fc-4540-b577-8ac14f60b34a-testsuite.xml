@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622292461662' stop='1622292464746'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622292461662' status='passed' stop='1622292464738'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622292461663' status='passed' stop='1622292463661'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622292463661' status='passed' stop='1622292463967'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622292463967' status='passed' stop='1622292464735'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622292464735' status='passed' stop='1622292464738'>
+                    <name>I see in current url "/search/Love"</name>
+                    <title>I see in current url "/search/Love"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

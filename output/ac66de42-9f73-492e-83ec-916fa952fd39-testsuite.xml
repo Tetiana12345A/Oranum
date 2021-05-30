@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622279525577' stop='1622279527437'>
+    <name>Searching for full text:</name>
+    <title>Searching for full text:</title>
+    <test-cases>
+        <test-case start='1622279525577' status='failed' stop='1622279527385'>
+            <name>test full search</name>
+            <title>test full search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622279525579' status='failed' stop='1622279527384'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>page.evaluate: Protocol error (Runtime.evaluate): Target closed.</message>
+                <stack-trace>page.evaluate: Protocol error (Runtime.evaluate): Target closed.
+                Error
+                    at Object.captureStackTrace (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/utils/stackTrace.js:50:19)
+                    at Connection.sendMessageToServer (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/connection.js:65:48)
+                    at Proxy.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:64:61)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/frame.js:184:42
+                    at Frame._wrapApiCall (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:77:34)
+                    at Frame.evaluate (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/frame.js:183:21)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:395:60
+                    at Page._attributeToPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:238:20)
+                    at Page.evaluate (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:395:21)
+                    at Playwright.amOnPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:703:58)
+                    at async Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req3_test.js:9:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

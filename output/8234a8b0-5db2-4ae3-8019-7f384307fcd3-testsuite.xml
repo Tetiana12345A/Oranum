@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622362508726' stop='1622362578902'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622362509620' status='failed' stop='1622362578871'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622362509634' status='passed' stop='1622362512545'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622362512545' status='passed' stop='1622362515206'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622362515206' status='passed' stop='1622362515931'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622362515931' status='passed' stop='1622362515936'>
+                    <name>I see in current url "/en/search/Love"</name>
+                    <title>I see in current url "/en/search/Love"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622362515937' status='failed' stop='1622362578870'>
+                    <name>I wait for response (r) => {
+                                const url = r.url();
+                                console.log(url);
+                                return url === 'https://api-gateway.docleradn.com/v1/*';
+                            }, {"state":"attached"}</name>
+                    <title>I wait for response (r) => {
+                                const url = r.url();
+                                console.log(url);
+                                return url === 'https://api-gateway.docleradn.com/v1/*';
+                            }, {"state":"attached"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>page.waitForResponse: Page closed
+                Note: use DEBUG=pw:api environment variable to capture Playwright logs.</message>
+                <stack-trace>Error: page.waitForResponse: Page closed
+                Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+                    at Page._waitForEvent (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:359:68)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:341:25
+                    at Page._wrapApiCall (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:77:34)
+                    at Page.waitForResponse (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:333:21)
+                    at Playwright.waitForResponse (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:2098:22)
+                    at Step.run (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/step.js:66:47)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/actor.js:117:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

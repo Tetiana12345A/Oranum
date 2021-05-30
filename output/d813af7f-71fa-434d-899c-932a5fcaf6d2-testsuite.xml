@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622303735355' stop='1622303743157'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622303736283' status='failed' stop='1622303742607'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622303736297' status='passed' stop='1622303739342'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622303739343' status='passed' stop='1622303741625'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622303741625' status='passed' stop='1622303742329'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622303742329' status='passed' stop='1622303742335'>
+                    <name>I see in current url "/search/Love"</name>
+                    <title>I see in current url "/search/Love"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622303742335' status='passed' stop='1622303742495'>
+                    <name>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*", 500</name>
+                    <title>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*", 500</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622303742544' status='passed' stop='1622303742607'>
+                    <name>I grab text from all "$influencer-name"</name>
+                    <title>I grab text from all "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='697be9e2-78df-40a5-9dfb-833b58806f5d-attachment.png' type='image/png' size='1333328'/>
+            </attachments>
+            <failure>
+                <message>resp is not defined</message>
+                <stack-trace>ReferenceError: resp is not defined
+                    at Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req5_test.js:13:15)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

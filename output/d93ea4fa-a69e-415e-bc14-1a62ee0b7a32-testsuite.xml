@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622300523250' stop='1622300530132'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622300524190' status='passed' stop='1622300530035'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622300524207' status='passed' stop='1622300526783'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622300526784' status='passed' stop='1622300529039'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622300529039' status='passed' stop='1622300529831'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622300529831' status='passed' stop='1622300529951'>
+                    <name>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*"</name>
+                    <title>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622300530004' status='passed' stop='1622300530034'>
+                    <name>I see in current url "/search/Love"</name>
+                    <title>I see in current url "/search/Love"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

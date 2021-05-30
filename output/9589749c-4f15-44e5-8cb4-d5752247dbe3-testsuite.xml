@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622283678685' stop='1622283687234'>
+    <name>Searching for partial text:</name>
+    <title>Searching for partial text:</title>
+    <test-cases>
+        <test-case start='1622283679605' status='failed' stop='1622283686601'>
+            <name>test partial search</name>
+            <title>test partial search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622283679621' status='passed' stop='1622283685805'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622283685805' status='passed' stop='1622283686036'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622283686036' status='passed' stop='1622283686266'>
+                    <name>I fill field "find psychics...", "Matt"</name>
+                    <title>I fill field "find psychics...", "Matt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622283686266' status='passed' stop='1622283686450'>
+                    <name>I wait for element "$search-result-list", 20</name>
+                    <title>I wait for element "$search-result-list", 20</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622283686450' status='passed' stop='1622283686600'>
+                    <name>I grab text from all "$search-result-list"</name>
+                    <title>I grab text from all "$search-result-list"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='8eea1f53-c09b-43d2-bb5b-1b4295cb47b5-attachment.png' type='image/png' size='1169733'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'split' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'split' of undefined
+                    at Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req2_test.js:12:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

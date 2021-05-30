@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622296098930' stop='1622296112632'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622296098932' status='failed' stop='1622296112177'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622296099947' status='passed' stop='1622296106762'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622296106762' status='passed' stop='1622296106972'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622296106973' status='passed' stop='1622296107338'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622296107339' status='failed' stop='1622296112174'>
+                    <name>I mock server server => {
+                            server.get('https://api-gateway.docleradn.com/v1/guest/story/items/recommended*')
+                            //.passthrough(false).recordingName('api1');
+                            .intercept((req, res) => {
+                                console.log(res)
+                                res.status(200).json(users);
+                            });
+                          }</name>
+                    <title>I mock server server => {
+                            server.get('https://api-gateway.docleradn.com/v1/guest/story/items/recommended*')
+                            //.passthrough(false).recordingName('api1');
+                            .intercept((req, res) => {
+                                console.log(res)
+                                res.status(200).json(users);
+                            });
+                          }</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='791c57fe-9a2f-48fd-a983-c64682af6608-attachment.png' type='image/png' size='51951'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'apply' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'apply' of undefined
+                    at PuppeteerCodeceptJSAdapter._callListenersWith (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/@pollyjs/adapter-puppeteer/dist/cjs/pollyjs-adapter-puppeteer.js:2418:28)
+                    at PuppeteerCodeceptJSAdapter.attachToPageEvents (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/@pollyjs/adapter-puppeteer/dist/cjs/pollyjs-adapter-puppeteer.js:2328:10)
+                    at PuppeteerCodeceptJSAdapter.onConnect (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/@pollyjs/adapter-puppeteer/dist/cjs/pollyjs-adapter-puppeteer.js:2233:10)
+                    at PuppeteerCodeceptJSAdapter.connect (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/@pollyjs/adapter/dist/cjs/pollyjs-adapter.js:1130:12)
+                    at Polly.connectTo (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/@pollyjs/core/dist/cjs/pollyjs-core.js:6430:13)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/@pollyjs/core/dist/cjs/pollyjs-core.js:6315:50
+                    at Array.forEach (&lt;anonymous>)
+                    at Polly.configure (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/@pollyjs/core/dist/cjs/pollyjs-core.js:6315:26)
+                    at new Polly (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/@pollyjs/core/dist/cjs/pollyjs-core.js:6216:10)
+                    at PuppeteerConnector.connect (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/@codeceptjs/mock-request/connector/Puppeteer.js:43:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

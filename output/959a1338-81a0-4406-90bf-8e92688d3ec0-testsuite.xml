@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622277382442' stop='1622277391757'>
+    <name>Searching for full text:</name>
+    <title>Searching for full text:</title>
+    <test-cases>
+        <test-case start='1622277383460' status='failed' stop='1622277391125'>
+            <name>test full search</name>
+            <title>test full search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622277383475' status='passed' stop='1622277390347'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622277390347' status='passed' stop='1622277390552'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622277390552' status='passed' stop='1622277390774'>
+                    <name>I fill field "find psychics...", "Matt"</name>
+                    <title>I fill field "find psychics...", "Matt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622277390774' status='passed' stop='1622277391122'>
+                    <name>I grab text from "$search-result-list"</name>
+                    <title>I grab text from "$search-result-list"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='58815b76-5090-4ef4-ac16-13c20f2129c2-attachment.png' type='image/png' size='1231970'/>
+            </attachments>
+            <failure>
+                <message>The "regexp" argument must be an instance of RegExp. Received type string ('MattWarrenMatthiasWan')</message>
+                <stack-trace>TypeError [ERR_INVALID_ARG_TYPE]: The "regexp" argument must be an instance of RegExp. Received type string ('MattWarrenMatthiasWan')
+                    at internalMatch (assert.js:862:11)
+                    at Function.match (assert.js:896:3)
+                    at Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req2_test.js:11:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

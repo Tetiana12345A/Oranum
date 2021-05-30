@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622361750646' stop='1622361770478'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622361751511' status='failed' stop='1622361769972'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622361751528' status='passed' stop='1622361758651'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622361758651' status='passed' stop='1622361759259'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622361759259' status='passed' stop='1622361759964'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622361759965' status='failed' stop='1622361769971'>
+                    <name>I wait for response (r) => {
+                            const url = r.url();
+                            console.log(url);
+                            return url === 'https://api-gateway.docleradn.com/v1/guest/story/items/recommended*';
+                        }</name>
+                    <title>I wait for response (r) => {
+                            const url = r.url();
+                            console.log(url);
+                            return url === 'https://api-gateway.docleradn.com/v1/guest/story/items/recommended*';
+                        }</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='ded5a19d-8d24-4835-8c96-767ba996960f-attachment.png' type='image/png' size='1121206'/>
+            </attachments>
+            <failure>
+                <message>page.waitForResponse: Timeout while waiting for event "response"
+                Note: use DEBUG=pw:api environment variable to capture Playwright logs.</message>
+                <stack-trace>TimeoutError: page.waitForResponse: Timeout while waiting for event "response"
+                Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/waiter.js:49:51
+                    at async Waiter.waitForPromise (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/waiter.js:57:28)
+                    at async Page._waitForEvent (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:360:24)
+                    at async Page._wrapApiCall (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:77:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

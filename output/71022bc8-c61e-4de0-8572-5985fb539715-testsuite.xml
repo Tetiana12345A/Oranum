@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622266715291' stop='1622266718889'>
+    <name>Searching for full text:</name>
+    <title>Searching for full text:</title>
+    <test-cases>
+        <test-case start='1622266715292' status='failed' stop='1622266718258'>
+            <name>test full search</name>
+            <title>test full search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622266715295' status='passed' stop='1622266717395'>
+                    <name>I am on page "https://oranum.com/en/home"</name>
+                    <title>I am on page "https://oranum.com/en/home"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622266717395' status='passed' stop='1622266717590'>
+                    <name>I click {"css":"[data-testid=\"button-header-search\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"button-header-search\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622266717590' status='passed' stop='1622266717970'>
+                    <name>I fill field "find psychics...", "MattWarren"</name>
+                    <title>I fill field "find psychics...", "MattWarren"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622266717970' status='passed' stop='1622266718257'>
+                    <name>I grab text from {"css":"[data-testid=\"search-result-list\"]"}</name>
+                    <title>I grab text from {"css":"[data-testid=\"search-result-list\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='88cd8ea3-0397-4a7b-98b6-2f1b2c55142a-attachment.png' type='image/png' size='1226129'/>
+            </attachments>
+            <failure>
+                <message>assert is not defined</message>
+                <stack-trace>ReferenceError: assert is not defined
+                    at Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req3_test.js:9:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

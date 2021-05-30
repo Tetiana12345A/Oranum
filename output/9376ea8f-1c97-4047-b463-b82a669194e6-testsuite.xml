@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622394370692' stop='1622394377015'>
+    <name>show more:</name>
+    <title>show more:</title>
+    <test-cases>
+        <test-case start='1622394372146' status='passed' stop='1622394376983'>
+            <name>check unique influencers when scroll</name>
+            <title>check unique influencers when scroll</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622394372160' status='passed' stop='1622394374883'>
+                    <name>I am on page "/en/search/Love"</name>
+                    <title>I am on page "/en/search/Love"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622394374883' status='passed' stop='1622394376134'>
+                    <name>I see number of visible elements "$influencer-name", 20</name>
+                    <title>I see number of visible elements "$influencer-name", 20</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622394376134' status='passed' stop='1622394376139'>
+                    <name>I scroll page to bottom </name>
+                    <title>I scroll page to bottom </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622394376139' status='passed' stop='1622394376545'>
+                    <name>I see number of visible elements "$influencer-name", 40</name>
+                    <title>I see number of visible elements "$influencer-name", 40</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622394376545' status='passed' stop='1622394376983'>
+                    <name>I grab text from all "$influencer-name"</name>
+                    <title>I grab text from all "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

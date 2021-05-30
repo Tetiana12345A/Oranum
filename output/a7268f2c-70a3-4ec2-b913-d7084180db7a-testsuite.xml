@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622365969396' stop='1622365970582'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622365970433' status='failed' stop='1622365970446'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='37b635b2-5ff3-49be-9507-a00e02b8957e-attachment.png' type='image/png' size='5699'/>
+            </attachments>
+            <failure>
+                <message>I is not defined</message>
+                <stack-trace>ReferenceError: I is not defined
+                    at compare (/Users/tetianaafanasieva/Desktop/Oranum/req5_test.js:6:5)
+                    at Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req5_test.js:29:23)
+                    at Context.test.fn (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/scenario.js:78:14)
+                    at callFnAsync (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/mocha/lib/runnable.js:386:21)
+                    at Test.Runnable.run (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/mocha/lib/runnable.js:330:7)
+                    at Runner.runTest (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/mocha/lib/runner.js:621:10)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/mocha/lib/runner.js:745:12
+                    at next (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/mocha/lib/runner.js:538:14)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/mocha/lib/runner.js:548:7
+                    at next (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/mocha/lib/runner.js:430:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

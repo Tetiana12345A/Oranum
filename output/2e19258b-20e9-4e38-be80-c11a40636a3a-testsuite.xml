@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622368072518' stop='1622368078579'>
+    <name>show more:</name>
+    <title>show more:</title>
+    <test-cases>
+        <test-case start='1622368073533' status='failed' stop='1622368077958'>
+            <name>test something 12</name>
+            <title>test something 12</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622368073547' status='passed' stop='1622368075984'>
+                    <name>I am on page "/en/search/Love"</name>
+                    <title>I am on page "/en/search/Love"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622368075985' status='passed' stop='1622368077181'>
+                    <name>I see number of visible elements "$influencer-name", 20</name>
+                    <title>I see number of visible elements "$influencer-name", 20</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622368077182' status='passed' stop='1622368077202'>
+                    <name>I scroll page to bottom </name>
+                    <title>I scroll page to bottom </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622368077203' status='passed' stop='1622368077709'>
+                    <name>I see number of visible elements "$influencer-name", 40</name>
+                    <title>I see number of visible elements "$influencer-name", 40</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622368077709' status='passed' stop='1622368077957'>
+                    <name>I grab text from all "$influencer-name"</name>
+                    <title>I grab text from all "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='5d7c854e-4234-4d1a-bf1f-de9eecadf0db-attachment.png' type='image/png' size='1293732'/>
+            </attachments>
+            <failure>
+                <message>assert is not defined</message>
+                <stack-trace>ReferenceError: assert is not defined
+                    at Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req1_test.js:15:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

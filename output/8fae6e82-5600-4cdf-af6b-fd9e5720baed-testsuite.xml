@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622361003679' stop='1622361013264'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622361004739' status='passed' stop='1622361013257'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622361004753' status='passed' stop='1622361011816'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622361011816' status='passed' stop='1622361012446'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622361012446' status='passed' stop='1622361012456'>
+                    <name>I wait for response (r) => {
+                                console.log(r.url());
+                                return true;
+                                // 'https://api-gateway.docleradn.com/v1/guest/story/items/recommended*'
+                            }</name>
+                    <title>I wait for response (r) => {
+                                console.log(r.url());
+                                return true;
+                                // 'https://api-gateway.docleradn.com/v1/guest/story/items/recommended*'
+                            }</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622361012456' status='passed' stop='1622361013200'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622361013200' status='passed' stop='1622361013254'>
+                    <name>I grab text from all "$influencer-name"</name>
+                    <title>I grab text from all "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622361013255' status='passed' stop='1622361013256'>
+                    <name>I see in current url "/search/Love"</name>
+                    <title>I see in current url "/search/Love"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

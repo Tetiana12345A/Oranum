@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622367061578' stop='1622367066770'>
+    <name>show more:</name>
+    <title>show more:</title>
+    <test-cases>
+        <test-case start='1622367062580' status='passed' stop='1622367066568'>
+            <name>test something 12</name>
+            <title>test something 12</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622367062596' status='passed' stop='1622367065028'>
+                    <name>I am on page "/en/search/New"</name>
+                    <title>I am on page "/en/search/New"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622367065028' status='passed' stop='1622367066519'>
+                    <name>I see number of visible elements "$influencer-name", 36</name>
+                    <title>I see number of visible elements "$influencer-name", 36</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622367066519' status='passed' stop='1622367066568'>
+                    <name>I scroll page to bottom </name>
+                    <title>I scroll page to bottom </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

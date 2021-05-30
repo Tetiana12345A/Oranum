@@ -1,0 +1,163 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622286182755' stop='1622286202448'>
+    <name>Validate Livestream as unlogged user:</name>
+    <title>Validate Livestream as unlogged user:</title>
+    <test-cases>
+        <test-case start='1622286182755' status='passed' stop='1622286186546'>
+            <name>check profile is live </name>
+            <title>check profile is live </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622286182761' status='passed' stop='1622286184884'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286184884' status='passed' stop='1622286185254'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286185254' status='passed' stop='1622286185499'>
+                    <name>I click "Live"</name>
+                    <title>I click "Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286185499' status='passed' stop='1622286186146'>
+                    <name>I click "$influencer-name"</name>
+                    <title>I click "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286186146' status='passed' stop='1622286186544'>
+                    <name>I see element {xpath: .//*[@data-testid='live-status-box'][contains(., 'Live')]}</name>
+                    <title>I see element {xpath: .//*[@data-testid='live-status-box'][contains(., 'Live')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286186544' status='passed' stop='1622286186546'>
+                    <name>I see in current url "/en/chat/"</name>
+                    <title>I see in current url "/en/chat/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622286186555' status='passed' stop='1622286192356'>
+            <name>check get credits trigger a Sign up </name>
+            <title>check get credits trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622286186556' status='passed' stop='1622286188742'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286188743' status='passed' stop='1622286189132'>
+                    <name>I click "$influencer-name"</name>
+                    <title>I click "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286189132' status='passed' stop='1622286192229'>
+                    <name>I click "10"</name>
+                    <title>I click "10"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286192229' status='passed' stop='1622286192356'>
+                    <name>I see "Register an account to continue"</name>
+                    <title>I see "Register an account to continue"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622286192380' status='passed' stop='1622286197916'>
+            <name>check add to favorite trigger a Sign up </name>
+            <title>check add to favorite trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622286192383' status='passed' stop='1622286194507'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286194507' status='passed' stop='1622286195145'>
+                    <name>I click "$influencer-name"</name>
+                    <title>I click "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286195146' status='passed' stop='1622286195967'>
+                    <name>I see element "$live-status-box"</name>
+                    <title>I see element "$live-status-box"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286195967' status='passed' stop='1622286197863'>
+                    <name>I click "$favorite-button"</name>
+                    <title>I click "$favorite-button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286197863' status='passed' stop='1622286197916'>
+                    <name>I see "Join now!"</name>
+                    <title>I see "Join now!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622286197933' status='passed' stop='1622286202435'>
+            <name>check quick buy trigger a Sign up </name>
+            <title>check quick buy trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622286197934' status='passed' stop='1622286199458'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286199458' status='passed' stop='1622286199864'>
+                    <name>I click "$influencer-name"</name>
+                    <title>I click "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286199864' status='passed' stop='1622286200553'>
+                    <name>I see element "$live-status-box"</name>
+                    <title>I see element "$live-status-box"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286200553' status='passed' stop='1622286202425'>
+                    <name>I click "$quick-buy-button"</name>
+                    <title>I click "$quick-buy-button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622286202425' status='passed' stop='1622286202435'>
+                    <name>I see "Are You a Member?"</name>
+                    <title>I see "Are You a Member?"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622265831712' stop='1622265841203'>
+    <name>Searching for partial text:</name>
+    <title>Searching for partial text:</title>
+    <test-cases>
+        <test-case start='1622265833434' status='passed' stop='1622265841194'>
+            <name>test partial search</name>
+            <title>test partial search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622265833450' status='passed' stop='1622265840680'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622265840680' status='passed' stop='1622265840974'>
+                    <name>I click {"css":"[data-testid=\"button-header-search\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"button-header-search\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622265840974' status='passed' stop='1622265841194'>
+                    <name>I fill field "find psychics...", "Matt"</name>
+                    <title>I fill field "find psychics...", "Matt"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

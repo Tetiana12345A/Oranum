@@ -1,0 +1,176 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622287249325' stop='1622287277482'>
+    <name>Validate Livestream as unlogged user:</name>
+    <title>Validate Livestream as unlogged user:</title>
+    <test-cases>
+        <test-case start='1622287249325' status='passed' stop='1622287253179'>
+            <name>check profile is live </name>
+            <title>check profile is live </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622287249330' status='passed' stop='1622287251312'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287251312' status='passed' stop='1622287251713'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287251713' status='passed' stop='1622287251938'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Live')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Live')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287251938' status='passed' stop='1622287252707'>
+                    <name>I click "$influencer-name"</name>
+                    <title>I click "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287252707' status='passed' stop='1622287253147'>
+                    <name>I see element {xpath: .//*[@data-testid='live-status-box'][contains(., 'Live')]}</name>
+                    <title>I see element {xpath: .//*[@data-testid='live-status-box'][contains(., 'Live')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287253147' status='passed' stop='1622287253179'>
+                    <name>I see in current url "/en/chat/"</name>
+                    <title>I see in current url "/en/chat/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622287253190' status='failed' stop='1622287266897'>
+            <name>check get credits trigger a Sign up </name>
+            <title>check get credits trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622287253191' status='passed' stop='1622287254850'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287254850' status='passed' stop='1622287255273'>
+                    <name>I click "$influencer-name"</name>
+                    <title>I click "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287255273' status='failed' stop='1622287266897'>
+                    <name>I click "Get 10,000"</name>
+                    <title>I click "Get 10,000"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='4cabfcaf-b601-43b8-a4ea-e4b0e8c00173-attachment.png' type='image/png' size='1202959'/>
+            </attachments>
+            <failure>
+                <message>page.$$: Unexpected token "10" while parsing selector "Get 10,000"</message>
+                <stack-trace>page.$$: Unexpected token "10" while parsing selector "Get 10,000"
+                Error
+                    at Object.captureStackTrace (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/utils/stackTrace.js:50:19)
+                    at Connection.sendMessageToServer (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/connection.js:65:48)
+                    at Proxy.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:64:61)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/frame.js:232:42
+                    at Frame._wrapApiCall (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:77:34)
+                    at Frame.$$ (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/frame.js:231:21)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:266:60
+                    at Page._attributeToPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:238:20)
+                    at Page.$$ (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:266:21)
+                    at Playwright.findElements (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:2253:18)
+                    at Playwright.findClickable (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:2319:23)
+                    at async Playwright.proceedClick (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:2276:15)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622287267715' status='passed' stop='1622287272887'>
+            <name>check add to favorite trigger a Sign up </name>
+            <title>check add to favorite trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622287267716' status='passed' stop='1622287269702'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287269702' status='passed' stop='1622287270089'>
+                    <name>I click "$influencer-name"</name>
+                    <title>I click "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287270089' status='passed' stop='1622287271076'>
+                    <name>I see element "$live-status-box"</name>
+                    <title>I see element "$live-status-box"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287271076' status='passed' stop='1622287272839'>
+                    <name>I click "$favorite-button"</name>
+                    <title>I click "$favorite-button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287272839' status='passed' stop='1622287272887'>
+                    <name>I see "Join now!"</name>
+                    <title>I see "Join now!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622287272894' status='passed' stop='1622287277474'>
+            <name>check quick buy trigger a Sign up </name>
+            <title>check quick buy trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622287272897' status='passed' stop='1622287274317'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287274317' status='passed' stop='1622287274729'>
+                    <name>I click "$influencer-name"</name>
+                    <title>I click "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287274729' status='passed' stop='1622287275102'>
+                    <name>I see element "$live-status-box"</name>
+                    <title>I see element "$live-status-box"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287275102' status='passed' stop='1622287277441'>
+                    <name>I click "$quick-buy-button"</name>
+                    <title>I click "$quick-buy-button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622287277441' status='passed' stop='1622287277474'>
+                    <name>I see "Are You a Member?"</name>
+                    <title>I see "Are You a Member?"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

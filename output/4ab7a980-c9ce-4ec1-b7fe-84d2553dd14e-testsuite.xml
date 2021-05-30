@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622367074035' stop='1622367083064'>
+    <name>show more:</name>
+    <title>show more:</title>
+    <test-cases>
+        <test-case start='1622367074984' status='failed' stop='1622367082578'>
+            <name>test something 12</name>
+            <title>test something 12</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622367074997' status='passed' stop='1622367077430'>
+                    <name>I am on page "/en/search/New"</name>
+                    <title>I am on page "/en/search/New"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622367077431' status='failed' stop='1622367082577'>
+                    <name>I see number of visible elements "$influencer-name", 37</name>
+                    <title>I see number of visible elements "$influencer-name", 37</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='6f5c6358-c302-4ec8-9530-9ba4584a497b-attachment.png' type='image/png' size='1389920'/>
+            </attachments>
+            <failure>
+                <message>expected expected number of visible elements ($influencer-name) is 37, but found 36 "36" to equal "37"</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622302593431' stop='1622302611074'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622302594472' status='failed' stop='1622302610513'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622302594488' status='passed' stop='1622302597521'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622302597522' status='passed' stop='1622302599812'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622302599812' status='passed' stop='1622302600497'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622302600498' status='passed' stop='1622302600505'>
+                    <name>I see in current url "/search/Love"</name>
+                    <title>I see in current url "/search/Love"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622302600506' status='failed' stop='1622302610511'>
+                    <name>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended?session=g2e9f3506ff0912bd160484c589ab0fef&amp;limit=20&amp;offset=0&amp;tags%5B%5D=Love&amp;selectedTag=Love&amp;enableRegistrationAgeDebug=0&amp;storyItemTypes%5B%5D=video&amp;storyItemTypes%5B%5D=image&amp;category=oranum_broadcaster&amp;showTestModels=0"</name>
+                    <title>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended?session=g2e9f3506ff0912bd160484c589ab0fef&amp;limit=20&amp;offset=0&amp;tags%5B%5D=Love&amp;selectedTag=Love&amp;enableRegistrationAgeDebug=0&amp;storyItemTypes%5B%5D=video&amp;storyItemTypes%5B%5D=image&amp;category=oranum_broadcaster&amp;showTestModels=0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='9ab89b5b-025b-41d3-badb-8f4e3a6a2764-attachment.png' type='image/png' size='1223765'/>
+            </attachments>
+            <failure>
+                <message>page.waitForResponse: Timeout while waiting for event "response"
+                =========================== logs ===========================
+                waiting for response "https://api-gateway.docleradn.com/v1/guest/story/i…"
+                ============================================================
+                Note: use DEBUG=pw:api environment variable to capture Playwright logs.</message>
+                <stack-trace>TimeoutError: page.waitForResponse: Timeout while waiting for event "response"
+                =========================== logs ===========================
+                waiting for response "https://api-gateway.docleradn.com/v1/guest/story/i…"
+                ============================================================
+                Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/waiter.js:49:51
+                    at async Waiter.waitForPromise (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/waiter.js:57:28)
+                    at async Page._waitForEvent (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:360:24)
+                    at async Page._wrapApiCall (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:77:28)
+                    at async Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req5_test.js:9:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

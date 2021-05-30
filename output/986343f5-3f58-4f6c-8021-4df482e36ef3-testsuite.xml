@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622363368980' stop='1622363370130'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622363369974' status='failed' stop='1622363369991'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622363369988' status='failed' stop='1622363369990'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='2c5f7864-0dfe-4939-baf8-6a9d2fd9afb7-attachment.png' type='image/png' size='5699'/>
+            </attachments>
+            <failure>
+                <message>page.goto: waitUntil: expected one of (load|domcontentloaded|networkidle)</message>
+                <stack-trace>Error: page.goto: waitUntil: expected one of (load|domcontentloaded|networkidle)
+                    at verifyLoadState (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/frame.js:424:15)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/frame.js:101:31
+                    at Frame._wrapApiCall (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:77:34)
+                    at Frame.goto (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/frame.js:100:21)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:303:60
+                    at Page._attributeToPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:238:20)
+                    at Page.goto (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:303:21)
+                    at Playwright.amOnPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:701:21)
+                    at Step.run (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/step.js:66:47)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/actor.js:117:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

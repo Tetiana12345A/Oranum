@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622297740695' stop='1622297751572'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622297740696' status='failed' stop='1622297750975'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622297742187' status='passed' stop='1622297748729'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622297748729' status='passed' stop='1622297749344'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622297749344' status='passed' stop='1622297749968'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622297749969' status='failed' stop='1622297750974'>
+                    <name>I wait for request "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*"</name>
+                    <title>I wait for request "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='8b0d6588-47eb-4dc8-acb7-1e9b6cdfb0f0-attachment.png' type='image/png' size='659337'/>
+            </attachments>
+            <failure>
+                <message>Timeout exceeded while waiting for event</message>
+                <stack-trace>TimeoutError: Timeout exceeded while waiting for event
+                    at Timeout.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/puppeteer/lib/cjs/puppeteer/common/helper.js:120:28)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

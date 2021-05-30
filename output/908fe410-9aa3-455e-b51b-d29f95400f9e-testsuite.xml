@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622277518804' stop='1622277518810'>
+    <name>Searching for full text:</name>
+    <title>Searching for full text:</title>
+    <test-cases>
+        <test-case start='1622277518805' status='failed' stop='1622277518807'>
+            <name>test full search</name>
+            <title>test full search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622277518806' status='failed' stop='1622277518807'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'goto' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'goto' of undefined
+                    at Playwright.amOnPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:701:21)
+                    at Step.run (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/step.js:66:47)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/actor.js:117:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

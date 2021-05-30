@@ -1,0 +1,95 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622281715912' stop='1622281715936'>
+    <name>Validate Livestream as unlogged user:</name>
+    <title>Validate Livestream as unlogged user:</title>
+    <test-cases>
+        <test-case start='1622281715912' status='failed' stop='1622281715917'>
+            <name>check profile is live </name>
+            <title>check profile is live </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622281715916' status='failed' stop='1622281715916'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'goto' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'goto' of undefined
+                    at Playwright.amOnPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:701:21)
+                    at Step.run (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/step.js:66:47)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/actor.js:117:23</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622281715924' status='failed' stop='1622281715926'>
+            <name>check get credits trigger a Sign up </name>
+            <title>check get credits trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622281715925' status='failed' stop='1622281715925'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'goto' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'goto' of undefined
+                    at Playwright.amOnPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:701:21)
+                    at Step.run (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/step.js:66:47)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/actor.js:117:23</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622281715929' status='failed' stop='1622281715931'>
+            <name>check add to favorite trigger a Sign up </name>
+            <title>check add to favorite trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622281715930' status='failed' stop='1622281715930'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'goto' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'goto' of undefined
+                    at Playwright.amOnPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:701:21)
+                    at Step.run (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/step.js:66:47)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/actor.js:117:23</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622281715933' status='failed' stop='1622281715934'>
+            <name>check quick buy trigger a Sign up </name>
+            <title>check quick buy trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622281715934' status='failed' stop='1622281715934'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'goto' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'goto' of undefined
+                    at Playwright.amOnPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:701:21)
+                    at Step.run (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/step.js:66:47)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/actor.js:117:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

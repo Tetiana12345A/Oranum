@@ -1,0 +1,134 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622280142268' stop='1622280178964'>
+    <name>Validate Livestream as unlogged user:</name>
+    <title>Validate Livestream as unlogged user:</title>
+    <test-cases>
+        <test-case start='1622280142268' status='passed' stop='1622280146177'>
+            <name>check profile is live </name>
+            <title>check profile is live </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622280142271' status='passed' stop='1622280144435'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622280144435' status='passed' stop='1622280144677'>
+                    <name>I click {"css":"[data-testid=\"button-header-search\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"button-header-search\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622280144677' status='passed' stop='1622280144946'>
+                    <name>I click "Live"</name>
+                    <title>I click "Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622280144946' status='passed' stop='1622280145785'>
+                    <name>I click {"css":"[data-testid=\"influencer-name\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"influencer-name\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622280145785' status='passed' stop='1622280146176'>
+                    <name>I see element {"css":"[data-testid=\"live-status-box\"]"}</name>
+                    <title>I see element {"css":"[data-testid=\"live-status-box\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1622280146186' status='failed' stop='1622280178942'>
+            <name>check get credits trigger a Sign up </name>
+            <title>check get credits trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622280146189' status='passed' stop='1622280147689'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622280147689' status='passed' stop='1622280148109'>
+                    <name>I click {"css":"[data-testid=\"influencer-name\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"influencer-name\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622280148109' status='failed' stop='1622280178942'>
+                    <name>I click "10"</name>
+                    <title>I click "10"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>page.$$: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.</message>
+                <stack-trace>page.$$: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+                Error
+                    at Object.captureStackTrace (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/utils/stackTrace.js:50:19)
+                    at Connection.sendMessageToServer (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/connection.js:65:48)
+                    at Proxy.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:64:61)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/frame.js:232:42
+                    at Frame._wrapApiCall (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:77:34)
+                    at Frame.$$ (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/frame.js:231:21)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:266:60
+                    at Page._attributeToPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:238:20)
+                    at Page.$$ (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:266:21)
+                    at Playwright.findElements (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:2253:18)
+                    at Playwright.findClickable (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:2306:28)
+                    at Playwright.proceedClick (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:2276:35)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622280178950' status='failed' stop='1622280178953'>
+            <name>check add to favorite trigger a Sign up </name>
+            <title>check add to favorite trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622280178952' status='failed' stop='1622280178953'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'goto' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'goto' of undefined
+                    at Playwright.amOnPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:701:21)
+                    at Step.run (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/step.js:66:47)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/actor.js:117:23</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1622280178957' status='failed' stop='1622280178962'>
+            <name>check quick buy trigger a Sign up </name>
+            <title>check quick buy trigger a Sign up </title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622280178961' status='failed' stop='1622280178961'>
+                    <name>I am on page "/en/search/Live"</name>
+                    <title>I am on page "/en/search/Live"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'goto' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'goto' of undefined
+                    at Playwright.amOnPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:701:21)
+                    at Step.run (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/step.js:66:47)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/actor.js:117:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

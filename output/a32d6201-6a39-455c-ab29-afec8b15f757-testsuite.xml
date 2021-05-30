@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622303689176' stop='1622303706800'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622303690248' status='failed' stop='1622303706229'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622303690268' status='passed' stop='1622303693290'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622303693290' status='passed' stop='1622303695444'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622303695444' status='passed' stop='1622303696207'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622303696207' status='passed' stop='1622303696220'>
+                    <name>I see in current url "/search/Love"</name>
+                    <title>I see in current url "/search/Love"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622303696220' status='failed' stop='1622303706228'>
+                    <name>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*"</name>
+                    <title>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='6759367e-8027-4c15-bbd0-9336e342bfa4-attachment.png' type='image/png' size='1333328'/>
+            </attachments>
+            <failure>
+                <message>page.waitForResponse: Timeout while waiting for event "response"
+                =========================== logs ===========================
+                waiting for response "https://api-gateway.docleradn.com/v1/guest/story/i…"
+                ============================================================
+                Note: use DEBUG=pw:api environment variable to capture Playwright logs.</message>
+                <stack-trace>TimeoutError: page.waitForResponse: Timeout while waiting for event "response"
+                =========================== logs ===========================
+                waiting for response "https://api-gateway.docleradn.com/v1/guest/story/i…"
+                ============================================================
+                Note: use DEBUG=pw:api environment variable to capture Playwright logs.
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/waiter.js:49:51
+                    at async Waiter.waitForPromise (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/waiter.js:57:28)
+                    at async Page._waitForEvent (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:360:24)
+                    at async Page._wrapApiCall (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:77:28)
+                    at async Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req5_test.js:9:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

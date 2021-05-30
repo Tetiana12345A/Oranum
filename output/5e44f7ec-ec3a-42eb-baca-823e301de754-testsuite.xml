@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622297543902' stop='1622297554776'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622297543903' status='failed' stop='1622297554158'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622297545305' status='passed' stop='1622297551814'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622297551815' status='passed' stop='1622297552451'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622297552451' status='passed' stop='1622297553154'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622297553154' status='failed' stop='1622297554157'>
+                    <name>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended?session=g2e9f3506ff0912bd160484c589ab0fef&amp;limit=20&amp;offset=80&amp;tags%5B%5D=Love&amp;selectedTag=Love&amp;enableRegistrationAgeDebug=0&amp;storyItemTypes%5B%5D=video&amp;storyItemTypes%5B%5D=image&amp;category=oranum_broadcaster&amp;showTestModels=0"</name>
+                    <title>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended?session=g2e9f3506ff0912bd160484c589ab0fef&amp;limit=20&amp;offset=80&amp;tags%5B%5D=Love&amp;selectedTag=Love&amp;enableRegistrationAgeDebug=0&amp;storyItemTypes%5B%5D=video&amp;storyItemTypes%5B%5D=image&amp;category=oranum_broadcaster&amp;showTestModels=0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='fdc0f5c9-2346-4f7a-8d53-07c7ffbfe601-attachment.png' type='image/png' size='657783'/>
+            </attachments>
+            <failure>
+                <message>Timeout exceeded while waiting for event</message>
+                <stack-trace>TimeoutError: Timeout exceeded while waiting for event
+                    at Timeout.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/puppeteer/lib/cjs/puppeteer/common/helper.js:120:28)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

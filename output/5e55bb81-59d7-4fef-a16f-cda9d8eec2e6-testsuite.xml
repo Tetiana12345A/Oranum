@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622301888229' stop='1622301895706'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622301889160' status='failed' stop='1622301894983'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622301889178' status='passed' stop='1622301891684'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622301891684' status='passed' stop='1622301893952'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622301893952' status='passed' stop='1622301894888'>
+                    <name>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</name>
+                    <title>I click {xpath: .//*[@data-testid='filter-link'][contains(., 'Love')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622301894888' status='passed' stop='1622301894895'>
+                    <name>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*"</name>
+                    <title>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622301894913' status='passed' stop='1622301894976'>
+                    <name>I grab text from all "$influencer-name"</name>
+                    <title>I grab text from all "$influencer-name"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='caddbc04-072e-4935-877f-013fcc272134-attachment.png' type='image/png' size='1269540'/>
+            </attachments>
+            <failure>
+                <message>influencer is not defined</message>
+                <stack-trace>ReferenceError: influencer is not defined
+                    at /Users/tetianaafanasieva/Desktop/Oranum/req5_test.js:15:42
+                    at Array.map (&lt;anonymous>)
+                    at Test.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/req5_test.js:14:25)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

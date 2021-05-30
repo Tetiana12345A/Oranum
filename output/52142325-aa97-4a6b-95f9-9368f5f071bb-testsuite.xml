@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622266539270' stop='1622266692076'>
+    <name>Searching for full text:</name>
+    <title>Searching for full text:</title>
+    <test-cases>
+        <test-case start='1622266539270' status='failed' stop='1622266692069'>
+            <name>test full search</name>
+            <title>test full search</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622266539272' status='passed' stop='1622266541311'>
+                    <name>I am on page "https://oranum.com/en/home"</name>
+                    <title>I am on page "https://oranum.com/en/home"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622266541311' status='passed' stop='1622266541570'>
+                    <name>I click {"css":"[data-testid=\"button-header-search\"]"}</name>
+                    <title>I click {"css":"[data-testid=\"button-header-search\"]"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622266541570' status='passed' stop='1622266541935'>
+                    <name>I fill field "find psychics...", "MattWarren"</name>
+                    <title>I fill field "find psychics...", "MattWarren"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622266541936' status='failed' stop='1622266692068'>
+                    <name>I grab text from ".aria-activedescendant"</name>
+                    <title>I grab text from ".aria-activedescendant"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>page.textContent: Target page, context or browser has been closed</message>
+                <stack-trace>page.textContent: Target page, context or browser has been closed
+                Error
+                    at Object.captureStackTrace (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/utils/stackTrace.js:50:19)
+                    at Connection.sendMessageToServer (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/connection.js:65:48)
+                    at Proxy.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:64:61)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/frame.js:309:42
+                    at Frame._wrapApiCall (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/channelOwner.js:77:34)
+                    at Frame.textContent (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/frame.js:308:21)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:472:60
+                    at Page._attributeToPage (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:238:20)
+                    at Page.textContent (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/playwright/lib/client/page.js:472:21)
+                    at Playwright.grabTextFrom (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/helper/Playwright.js:1591:34)
+                    at Step.run (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/step.js:66:47)
+                    at /Users/tetianaafanasieva/Desktop/Oranum/node_modules/codeceptjs/lib/actor.js:117:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

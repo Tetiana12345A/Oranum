@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622297266123' stop='1622297276437'>
+    <name>topics match:</name>
+    <title>topics match:</title>
+    <test-cases>
+        <test-case start='1622297266124' status='failed' stop='1622297275771'>
+            <name>check phisics match topics</name>
+            <title>check phisics match topics</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1622297267688' status='passed' stop='1622297274145'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622297274146' status='passed' stop='1622297274768'>
+                    <name>I click "$button-header-search"</name>
+                    <title>I click "$button-header-search"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1622297274768' status='failed' stop='1622297275770'>
+                    <name>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*"</name>
+                    <title>I wait for response "https://api-gateway.docleradn.com/v1/guest/story/items/recommended*"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='7f9a2ef9-feb9-4fb8-9e7b-4939643737a7-attachment.png' type='image/png' size='652699'/>
+            </attachments>
+            <failure>
+                <message>Timeout exceeded while waiting for event</message>
+                <stack-trace>TimeoutError: Timeout exceeded while waiting for event
+                    at Timeout.&lt;anonymous> (/Users/tetianaafanasieva/Desktop/Oranum/node_modules/puppeteer/lib/cjs/puppeteer/common/helper.js:120:28)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
