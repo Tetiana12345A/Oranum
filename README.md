@@ -1,6 +1,13 @@
 
 # Oranum QA case study
 
+## Prerequisite
+
+```
+node v 12
+```
+
+
 ## Installation 
 
 ```
