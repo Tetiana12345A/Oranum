@@ -15,6 +15,3 @@ Scenario('test partial search', async({ I }) => {
         assert.match(item, /matt/i); 
     });
 });
-
-
-
