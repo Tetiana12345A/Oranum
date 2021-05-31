@@ -18,7 +18,6 @@ Scenario('check surprise trigger a Sign up ', ({ I }) => {
     I.see('Register an account to continue');
 });
 
-
 Scenario('check add to favorite trigger a Sign up ', ({ I }) => {
     I.amOnPage('/en/search/Live');
     I.click("$influencer-name"); 
@@ -42,5 +41,3 @@ Scenario('check get credits trigger a Sign up ', ({ I }) => {
     I.click({xpath: '//*[contains(text(), "Get 10,000")]'});
     I.see('Are You a Member?');
 }); 
-
-
