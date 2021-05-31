@@ -1,3 +1,5 @@
+//test check searching for full text  
+
 const assert = require('assert');
 
 Feature('Searching for full text');
