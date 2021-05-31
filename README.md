@@ -1,6 +1,11 @@
 
 # Oranum QA case study
 
+## Installation 
+
+```
+npm i
+```
 
 ## Execute test cases
 
