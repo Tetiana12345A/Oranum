@@ -14,4 +14,3 @@ Scenario('test full search', async({ I }) => {
     I.seeInCurrentUrl('/en/profile/MattWarren');
     I.seeElement('$influencer-name-text');   
 });
-
