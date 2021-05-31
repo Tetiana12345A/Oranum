@@ -1,3 +1,5 @@
+// test check that selecting different topics display matching psychics
+
 const assert = require('assert');
 
 Feature('topics match psychics');
