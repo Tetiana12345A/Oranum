@@ -1,6 +1,5 @@
 //did not find Show More button , so check duplicates for new psychics when scroll 
 
-
 const assert = require('assert');
 
 Feature('show more');
