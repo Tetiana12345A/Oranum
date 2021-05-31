@@ -4,7 +4,7 @@
 ## Prerequisite
 
 ```
-Node.js v 12
+Node.js 12
 ```
 
 
