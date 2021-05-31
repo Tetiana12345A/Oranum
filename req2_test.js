@@ -1,3 +1,4 @@
+//test check searching for partial text  
 
 const assert = require('assert');
 
