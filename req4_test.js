@@ -1,3 +1,5 @@
+// test check livestream of any psychic
+
 Feature('Validate Livestream as unlogged user');
 
 Scenario('check profile is live ', ({ I }) => {
