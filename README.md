@@ -8,10 +8,11 @@ Node.js 12
 ```
 
 
-## Installation 
+## Installation  
+run in the root directory 
 
 ```
-npm i
+ npm i 
 ```
 
 ## Execute test cases
